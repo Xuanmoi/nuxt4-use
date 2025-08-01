@@ -12,7 +12,7 @@
   </div>
 </template>
 <script setup lang="ts">
-const { data } = await useFetch('/api/magento/test', {
+const { data } = await useFetch('/api/magento/route', {
     method: 'get',
     query: {
       params: ['injection-pump', {}]
